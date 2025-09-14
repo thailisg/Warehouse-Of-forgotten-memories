@@ -1,0 +1,37 @@
+Second Report for a Student Chosen Project
+
+Do the following:
+
+1. In the table below, list the dates, amount of time spent, and
+description of the work that you did on your project. Follow the example
+that is in the first row of the table below. Include the time you spent
+doing any of the following:
+    a. discussing your project with your teacher, tutor, or fellow students
+    b. researching by reading articles and watching applicable videos
+    c. designing your project by drawing diagrams and other applicable documents
+    d. writing experimental code
+    d. writing code for your project
+    e. writing test functions
+    f. debugging your code
+    g. any other activity that helped you complete your project
+
+
+            Time Spent
+   Date    (hours aprox)   Description of Work
+----------  ----------  -------------------------
+2025-08-02	1.0	Planned project: decided what program to make, researched classes and structure
+
+2025-08-07	5.0	Wrote initial experimental code: designing, building functions, deleting and rewriting, watching videos on YouTube, reading docs, asking AI, reviewing notes
+
+2025-08-08	4.0	Continued writing experimental code: more design, refining functions, testing, rewatching videos on YouTube, asking AI
+
+2025-08-10	4.0	Focused on design: modified and tested different designs, watching videos on YouTube, asking AI 
+
+2025-08-10	8.0	Rewrote entire project to add classes and organize code better; did not finish that day, asking AI, rewatching videos on YouTube
+
+2025-08-12	8.0	Fixed errors, wrote documentation, created tests, final review, cleaned code, prepared for submission, asking AI, watching videos on YouTube, reading docs, reviewing notes
+
+
+2. In Canvas, submit this completed text file, your Python program, your
+Python test file, and any project data files such as .txt and .csv files and
+link to video walkthrough if needed.
