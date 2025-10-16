@@ -14,6 +14,8 @@ from logic import read_alphabet_csv
 import tkinter as tk
 from tkinter import Frame, Label, Button
 import csv
+import os
+import sys
 
 class design_main:
 
@@ -39,7 +41,16 @@ class design_main:
         self.frm_right.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
 
         #Load the image to decorate the main window in Left frame
-        self.image = tk.PhotoImage(file="Assets/archaeological.png")
+        if getattr(sys, 'frozen', False):
+            base_path = sys._MEIPASS
+        else:
+            base_path = os.path.abspath(".")
+
+        # Ruta de la imagen
+        image_path = os.path.join(base_path, "Assets", "archaeological.png")
+
+        # Carga de la imagen usando la ruta correcta
+        self.image = tk.PhotoImage(file=image_path)
         self.lbl_image = Label(self.frm_left, image=self.image, bg="#d2b48c")
         self.lbl_image.image = self.image
         self.lbl_image.pack(padx=10, pady=10)
